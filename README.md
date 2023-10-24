@@ -5,9 +5,9 @@ This is a script that automates the creation of the Nginx server blocks and adds
 simply call the script 
 
 ### Using CURL
-`curl -o create_subdomains.sh https://example.com/path/to/create_subdomains.sh && chmod +x create_subdomains.sh && ./create_subdomains.sh && rm create_subdomains.sh`
+`curl -o create_subdomains.sh https://github.com/cavewebs/nginx-server-blocks/blob/main/create_subdomains.sh && chmod +x create_subdomains.sh && ./create_subdomains.sh && rm create_subdomains.sh`
 ### Using WGET
-`wget -O create_subdomains.sh https://example.com/path/to/create_subdomains.sh && chmod +x create_subdomains.sh && ./create_subdomains.sh && rm create_subdomains.sh`
+`wget -O create_subdomains.sh https://github.com/cavewebs/nginx-server-blocks/blob/main/create_subdomains.sh && chmod +x create_subdomains.sh && ./create_subdomains.sh && rm create_subdomains.sh`
 
 you will be prompted to enter how many subdomains you wont to create 
 
